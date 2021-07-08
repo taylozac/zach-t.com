@@ -1,0 +1,74 @@
+baseurl      = ""
+title        = "DamCTF"
+languageCode = "en-us"
+theme        = "hello-friend-ng"
+paginate     = 10
+
+[params]
+  dateform        = "Jan 2, 2006"
+  dateformShort   = "Jan 2"
+  dateformNum     = "2006-01-02"
+  dateformNumTime = "2006-01-02 15:04"
+
+  # Subtitle for home
+  homeSubtitle = "(tentatively) Oct. 9, 00:00 UTC - Oct. 11, 00:00 UTC"
+
+  # Set disableReadOtherPosts to true in order to hide the links to other posts.
+  disableReadOtherPosts = false
+
+  # Enable sharing buttons, if you like
+  enableSharingButtons = true
+
+  # Metadata mostly used in document's head
+  description = "DamCTF Landing Page"
+  keywords = "landing, damctf, osusec"
+  images = [""]
+
+[taxonomies]
+    category = "blog"
+    tag      = "tags"
+    series   = "series"
+
+[languages]
+  [languages.en]
+    title = "DamCTF by OSUSEC"
+    subtitle = ""
+    keywords = ""
+    copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
+    #readOtherPosts = "Read other posts"
+
+    [languages.en.params.logo]
+      logoText = "DamCTF 2021"
+      logoHomeLink = ""
+    # or
+    #
+    # path = "/img/dam-logo.png"
+    # alt = "OSUSEC Logo"
+
+  # And you can even create generic menu
+  [menu]
+    [[menu.main]]
+      identifier = "CTFtime"
+      name       = "CTFtime"
+      url        = "https://ctftime.org/event/1401"
+
+    [[menu.main]]
+      identifier = "osusec-site"
+      name       = "OSUSEC"
+      url        = "https://osusec.org"
+
+  [[params.social]]
+    name = "gitlab"
+    url = "https://gitlab.com/osusec"
+
+  [[params.social]]
+    name = "discord"
+    url = "https://discord.gg/XNbm9qqZCR"
+
+  [[params.social]]
+    name = "email"
+    url = "mailto:osusecclub@gmail.com?subject=Mail from damctf.xyz"
+
+  [[params.social]]
+    name = "twitter"
+    url = "https://twitter.com/DamCTF"
