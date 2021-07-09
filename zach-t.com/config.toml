@@ -1,5 +1,5 @@
 baseurl      = ""
-title        = "DamCTF"
+title        = "Zachary Taylor"
 languageCode = "en-us"
 theme        = "hello-friend-ng"
 paginate     = 10
@@ -11,7 +11,7 @@ paginate     = 10
   dateformNumTime = "2006-01-02 15:04"
 
   # Subtitle for home
-  homeSubtitle = "(tentatively) Oct. 9, 00:00 UTC - Oct. 11, 00:00 UTC"
+  homeSubtitle = "Computer Science, Cyber Security, and Math Student"
 
   # Set disableReadOtherPosts to true in order to hide the links to other posts.
   disableReadOtherPosts = false
@@ -20,8 +20,8 @@ paginate     = 10
   enableSharingButtons = true
 
   # Metadata mostly used in document's head
-  description = "DamCTF Landing Page"
-  keywords = "landing, damctf, osusec"
+  description = "My home page and blog."
+  keywords = "zach, taylor, zach taylor, cybersecurity"
   images = [""]
 
 [taxonomies]
@@ -31,44 +31,48 @@ paginate     = 10
 
 [languages]
   [languages.en]
-    title = "DamCTF by OSUSEC"
+    title = "Zachary D. Taylor"
     subtitle = ""
     keywords = ""
     copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
     #readOtherPosts = "Read other posts"
 
     [languages.en.params.logo]
-      logoText = "DamCTF 2021"
+      logoText = "cd /home/zach"
       logoHomeLink = ""
     # or
     #
-    # path = "/img/dam-logo.png"
-    # alt = "OSUSEC Logo"
+    # path = ""
+    # alt = ""
 
   # And you can even create generic menu
   [menu]
     [[menu.main]]
-      identifier = "CTFtime"
-      name       = "CTFtime"
-      url        = "https://ctftime.org/event/1401"
+      identifier = "resume"
+      name       = "Resume"
+      url        = "/resume.pdf"
 
     [[menu.main]]
-      identifier = "osusec-site"
-      name       = "OSUSEC"
-      url        = "https://osusec.org"
+      identifier = "about"
+      name       = "About"
+      url        = "/about"
 
   [[params.social]]
-    name = "gitlab"
-    url = "https://gitlab.com/osusec"
+    name = "github"
+    url = "https://github.com/taylozac"
 
   [[params.social]]
     name = "discord"
-    url = "https://discord.gg/XNbm9qqZCR"
+    url = "https://discord.com/users/199396039357104128"
 
   [[params.social]]
     name = "email"
-    url = "mailto:osusecclub@gmail.com?subject=Mail from damctf.xyz"
+    url = "mailto:taylozac@oregonstate.edu?subject=Mail from zach-t.com"
 
   [[params.social]]
     name = "twitter"
-    url = "https://twitter.com/DamCTF"
+    url = "https://twitter.com/Toxic_Z_"
+
+  [[params.social]]
+    name = "linkedin"
+    url = "https://www.linkedin.com/in/zachary-taylor-726a31169/"
