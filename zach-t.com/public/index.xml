@@ -1,11 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>DamCTF by OSUSEC</title>
+    <title>Zachary D. Taylor</title>
     <link>/</link>
-    <description>Recent content on DamCTF by OSUSEC</description>
+    <description>Recent content on Zachary D. Taylor</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About...</title>
+      <link>/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/about/</guid>
+      <description>Zachary Taylor is a fifth year student at Oregon State University (OSU) focusing on studying cyber security. He believes that security and privacy are essential for the world as technology continues to become more integral in everything that we do.
+Currently, Zach is an Operational Security Analyst for the Security Operations Center at OSU. While working here, he performs network monitoring, threat hunting, and tooling for analysis of network traffic. Zach is also the vice president of the Oregon State Security Club (OSUSEC).</description>
+    </item>
+    
   </channel>
 </rss>
